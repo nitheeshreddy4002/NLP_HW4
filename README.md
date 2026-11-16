@@ -1,32 +1,30 @@
+CS5760 – NLP Home Assignment 4
+Name: Nitheesh Reddy Pabbangari
+ID: 700774002
+University: University of Central Missouri
+Semester: Fall 2026
 
-# CS5760 - Natural Language Processing
-## Home Assignment 4
+Project Description
 
-### Student Information
-- Name: Ruchitha Thavutu
-- Course: CS5760 - Natural Language Processing
-- Semester: Fall 2026
-- University: University of Central Missouri
+This assignment covers three NLP concepts implemented using Python:
 
-### Q1: NLP Preprocessing Pipeline
-Implemented tokenization, stopword removal, and stemming
-using the NLTK library and Porter Stemmer.
+NLP Preprocessing: Tokenization, stopword removal, and stemming using NLTK.
 
-### Q2: Named Entity Recognition
-Used spaCy to identify named entities and extract their
-entity labels and character positions.
+Named Entity Recognition: Extracting entities and their labels using spaCy.
 
-### Q3: Scaled Dot-Product Attention
-Implemented scaled dot-product attention using NumPy.
-The program calculates attention scores, applies scaling
-and softmax, and generates the final output matrix.
+Scaled Dot-Product Attention: Implementing attention using NumPy.
 
-## Libraries Used
-- Python
-- NLTK
-- spaCy
-- NumPy
+Technologies Used
 
-python Q1_NLP_Preprocessing.py
-python Q2_Named_Entity_Recognition.py
-python Q3_Scaled_Dot_Product_Attention.py
+Python
+
+NLTK
+
+spaCy
+
+NumPy
+
+Installation
+
+pip install nltk spacy numpy
+python -m spacy download en_core_web_sm
